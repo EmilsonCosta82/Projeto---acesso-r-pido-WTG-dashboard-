@@ -1,0 +1,143 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Roboto, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b13"/>
+      <stop offset="55%" stop-color="#0b1420"/>
+      <stop offset="100%" stop-color="#0d1624"/>
+    </linearGradient>
+    <linearGradient id="bladeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#00a9a9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ff6b00" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff6b00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#glow)"/>
+
+  <!-- subtle IP grid motif, right side, echoing the WTG node grid in the app -->
+  <g opacity="0.35">
+    <g transform="translate(760,40)">
+      <!-- 9 columns x 6 rows of small nodes -->
+      <g fill="#1a2a40" stroke="#25405f" stroke-width="1">
+        <!-- generated grid -->
+      </g>
+    </g>
+  </g>
+  <g transform="translate(770,38)">
+    <!-- rows -->
+    <g id="grid-rows">
+    </g>
+  </g>
+
+  <!-- programmatically-styled static grid (13x7) -->
+  <g transform="translate(772,36)">
+    <g fill="#132033" stroke="#22364f" stroke-width="1">
+      <rect x="0"   y="0"  width="26" height="18" rx="3"/>
+      <rect x="34"  y="0"  width="26" height="18" rx="3"/>
+      <rect x="68"  y="0"  width="26" height="18" rx="3"/>
+      <rect x="102" y="0"  width="26" height="18" rx="3"/>
+      <rect x="136" y="0"  width="26" height="18" rx="3"/>
+      <rect x="170" y="0"  width="26" height="18" rx="3"/>
+      <rect x="204" y="0"  width="26" height="18" rx="3"/>
+      <rect x="238" y="0"  width="26" height="18" rx="3"/>
+      <rect x="272" y="0"  width="26" height="18" rx="3"/>
+      <rect x="306" y="0"  width="26" height="18" rx="3"/>
+      <rect x="340" y="0"  width="26" height="18" rx="3"/>
+
+      <rect x="0"   y="26" width="26" height="18" rx="3" fill="#16233a"/>
+      <rect x="34"  y="26" width="26" height="18" rx="3" fill="#1c3b2f" stroke="#2c6e52"/>
+      <rect x="68"  y="26" width="26" height="18" rx="3"/>
+      <rect x="102" y="26" width="26" height="18" rx="3"/>
+      <rect x="136" y="26" width="26" height="18" rx="3" fill="#3a2413" stroke="#ff6b00"/>
+      <rect x="170" y="26" width="26" height="18" rx="3"/>
+      <rect x="204" y="26" width="26" height="18" rx="3"/>
+      <rect x="238" y="26" width="26" height="18" rx="3"/>
+      <rect x="272" y="26" width="26" height="18" rx="3"/>
+      <rect x="306" y="26" width="26" height="18" rx="3"/>
+      <rect x="340" y="26" width="26" height="18" rx="3"/>
+
+      <rect x="0"   y="52" width="26" height="18" rx="3"/>
+      <rect x="34"  y="52" width="26" height="18" rx="3"/>
+      <rect x="68"  y="52" width="26" height="18" rx="3" fill="#16233a"/>
+      <rect x="102" y="52" width="26" height="18" rx="3"/>
+      <rect x="136" y="52" width="26" height="18" rx="3"/>
+      <rect x="170" y="52" width="26" height="18" rx="3" fill="#1c3b2f" stroke="#2c6e52"/>
+      <rect x="204" y="52" width="26" height="18" rx="3"/>
+      <rect x="238" y="52" width="26" height="18" rx="3"/>
+      <rect x="272" y="52" width="26" height="18" rx="3"/>
+      <rect x="306" y="52" width="26" height="18" rx="3"/>
+      <rect x="340" y="52" width="26" height="18" rx="3"/>
+
+      <rect x="0"   y="78" width="26" height="18" rx="3"/>
+      <rect x="34"  y="78" width="26" height="18" rx="3"/>
+      <rect x="68"  y="78" width="26" height="18" rx="3"/>
+      <rect x="102" y="78" width="26" height="18" rx="3" fill="#16233a"/>
+      <rect x="136" y="78" width="26" height="18" rx="3"/>
+      <rect x="170" y="78" width="26" height="18" rx="3"/>
+      <rect x="204" y="78" width="26" height="18" rx="3"/>
+      <rect x="238" y="78" width="26" height="18" rx="3" fill="#1c3b2f" stroke="#2c6e52"/>
+      <rect x="272" y="78" width="26" height="18" rx="3"/>
+      <rect x="306" y="78" width="26" height="18" rx="3"/>
+      <rect x="340" y="78" width="26" height="18" rx="3"/>
+
+      <rect x="0"   y="104" width="26" height="18" rx="3"/>
+      <rect x="34"  y="104" width="26" height="18" rx="3"/>
+      <rect x="68"  y="104" width="26" height="18" rx="3"/>
+      <rect x="102" y="104" width="26" height="18" rx="3"/>
+      <rect x="136" y="104" width="26" height="18" rx="3" fill="#16233a"/>
+      <rect x="170" y="104" width="26" height="18" rx="3"/>
+      <rect x="204" y="104" width="26" height="18" rx="3"/>
+      <rect x="238" y="104" width="26" height="18" rx="3"/>
+      <rect x="272" y="104" width="26" height="18" rx="3"/>
+      <rect x="306" y="104" width="26" height="18" rx="3" fill="#1c3b2f" stroke="#2c6e52"/>
+      <rect x="340" y="104" width="26" height="18" rx="3"/>
+
+      <rect x="0"   y="130" width="26" height="18" rx="3"/>
+      <rect x="34"  y="130" width="26" height="18" rx="3"/>
+      <rect x="68"  y="130" width="26" height="18" rx="3"/>
+      <rect x="102" y="130" width="26" height="18" rx="3"/>
+      <rect x="136" y="130" width="26" height="18" rx="3"/>
+      <rect x="170" y="130" width="26" height="18" rx="3" fill="#16233a"/>
+      <rect x="204" y="130" width="26" height="18" rx="3"/>
+      <rect x="238" y="130" width="26" height="18" rx="3"/>
+      <rect x="272" y="130" width="26" height="18" rx="3"/>
+      <rect x="306" y="130" width="26" height="18" rx="3"/>
+      <rect x="340" y="130" width="26" height="18" rx="3"/>
+    </g>
+  </g>
+
+  <!-- turbine glyph, left -->
+  <g transform="translate(100,130)">
+    <line x1="0" y1="0" x2="0" y2="95" stroke="#3a4d66" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="-3" r="7" fill="#0d1624" stroke="#00ffcc" stroke-width="2"/>
+    <g stroke="url(#bladeGrad)" stroke-width="6" stroke-linecap="round">
+      <path d="M0,-3 C 14,-30 10,-58 -4,-78" fill="none"/>
+      <path d="M0,-3 C -26,-14 -46,-32 -56,-56" fill="none"/>
+      <path d="M0,-3 C -14,26 8,46 34,50" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Title block -->
+  <g transform="translate(190,92)">
+    <text x="0" y="0" fill="#ff6b00" font-size="40" font-weight="800" letter-spacing="1">INTERFACE PLC WTG</text>
+    <text x="0" y="30" fill="#00ffcc" font-size="16" font-weight="600" letter-spacing="2">WEBSCADA &#183; SUPERVISÃO GOLDWIND &#183; CTG BRASIL</text>
+
+    <g transform="translate(0,58)">
+      <rect x="0" y="0" width="392" height="28" rx="14" fill="#0d1624" stroke="#1a2a40"/>
+      <circle cx="16" cy="14" r="5" fill="#ff6b00"/>
+      <text x="30" y="19" fill="#8899ac" font-size="13" font-weight="600">PARQUE EÓLICO SERRA DA PALMEIRA</text>
+    </g>
+
+    <g transform="translate(0,96)">
+      <rect x="0" y="0" width="230" height="28" rx="14" fill="#0d1624" stroke="#1a2a40"/>
+      <circle cx="16" cy="14" r="5" fill="#00ffcc"/>
+      <text x="30" y="19" fill="#8899ac" font-size="13" font-weight="600">TURBINAS GOLDWIND 6MW</text>
+    </g>
+  </g>
+
+  <text x="1170" y="240" fill="#3a4d66" font-size="12" text-anchor="end" letter-spacing="1">108 WTG &#183; 23 SDP &#183; 3 EIXOS</text>
+</svg>
