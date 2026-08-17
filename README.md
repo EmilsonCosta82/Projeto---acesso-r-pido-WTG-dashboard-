@@ -39,15 +39,24 @@ Cada bloco SDP contém um conjunto de aerogeradores, mapeados para um IP local (
 
 ## 🚀 Instalação e Execução Local
 
-Pré-requisito: apenas um navegador web moderno (Chrome, Edge, Firefox).
+> ℹ️ Este painel **não é uma página web hospedada** — o GitHub apenas guarda o código-fonte do arquivo `.html`. Para usar de verdade, é preciso baixar o arquivo e abri-lo localmente no computador conectado à rede do parque.
 
-1. Clone o repositório:
+Pré-requisito: apenas um navegador web moderno (Chrome, Edge, Firefox) e conexão com a rede interna do parque (`192.168.151.X`).
+
+**Opção A — Baixar diretamente do GitHub:**
+
+1. Acesse o arquivo `Interface PLC WTG.html` no repositório.
+2. Clique em **"Download raw file"** (ou nos três pontos `...` > **Download**).
+3. Salve em um local fixo no seu computador, por exemplo: `C:\Users\SCADASDP\Desktop\Interface PLC WTG.html`.
+4. Sempre que precisar usar o painel, dê **duplo clique** nesse arquivo para abri-lo no navegador.
+
+**Opção B — Clonar o repositório completo:**
 ```bash
 git clone https://github.com/EmilsonCosta82/Profissional.git
 cd Profissional
 ```
 
-2. Abra o arquivo diretamente no navegador:
+Depois, abra o arquivo diretamente no navegador:
 ```bash
 # Windows
 start "Interface PLC WTG.html"
@@ -56,13 +65,7 @@ start "Interface PLC WTG.html"
 open "Interface PLC WTG.html"
 ```
 
-Ou, se preferir servir via um pequeno servidor local:
-```bash
-python -m http.server 8000
-```
-E acesse em `http://localhost:8000/Interface%20PLC%20WTG.html`.
-
-> ⚠️ **Atenção:** os botões desta página abrem endereços na faixa `192.168.151.X`, que corresponde à **rede interna/local** do parque eólico. O acesso às interfaces das turbinas só funciona quando o computador estiver conectado a essa rede.
+> ⚠️ **Atenção:** os botões desta página abrem endereços na faixa `192.168.151.X`, que corresponde à **rede interna/local** do parque eólico. O painel só funciona (e os botões só abrem as turbinas) quando o computador que o executa está conectado a essa rede — não há como acessá-lo remotamente pela internet.
 
 ## ⚙️ Configuração / Personalização
 
